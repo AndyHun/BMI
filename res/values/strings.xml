@@ -6,5 +6,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="label_height">身高(CM)</string>
     <string name="label_weight">体重(KG)</string>
+    <string name="label_submmit">计算BMI值</string>
+    <string name="bmi_result">BMI结果：</string>
 
 </resources>

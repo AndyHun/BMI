@@ -38,6 +38,13 @@
             android:inputType="numberDecimal" />
     </LinearLayout>
     
+    <Button android:id="@+id/submmit"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/label_submmit"
+        	
+        	/>
+    
     <TextView
         	android:id="@+id/result"
             android:layout_height="wrap_content"
