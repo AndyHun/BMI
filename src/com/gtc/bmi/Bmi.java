@@ -4,10 +4,11 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.gtc.bmi.listener.btn.CalculateBmiListener;
 
-public class BMI extends Activity {
+public class Bmi extends Activity {
 	Button submmit = null;
 
 	@Override

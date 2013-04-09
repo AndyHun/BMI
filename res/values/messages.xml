@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="height_wrong">身高输入错误!</string>
+    <string name="weight_wrong">体重输入错误!</string>
+    
+</resources>

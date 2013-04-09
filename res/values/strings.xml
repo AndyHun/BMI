@@ -8,5 +8,5 @@
     <string name="label_weight">体重(KG)</string>
     <string name="label_submmit">计算BMI值</string>
     <string name="bmi_result">BMI结果：</string>
-
+    
 </resources>
