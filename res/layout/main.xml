@@ -5,58 +5,69 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" >
+
         <TextView
-            android:layout_height="wrap_content"
             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="@string/label_height" />
 
         <EditText
             android:id="@+id/height"
-            android:layout_height="wrap_content"
             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:inputType="numberDecimal" />
     </LinearLayout>
-    
-    <LinearLayout 
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        
+        android:layout_height="wrap_content" >
+
         <TextView
-            android:layout_height="wrap_content"
             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="@string/label_weight" />
-        
+
         <EditText
             android:id="@+id/weight"
-            android:layout_height="wrap_content"
             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:inputType="numberDecimal" />
     </LinearLayout>
-    
-    <Button android:id="@+id/submmit"
-        	android:layout_width="fill_parent"
-        	android:layout_height="wrap_content"
-        	android:text="@string/label_submmit"
-        	
-        	/>
-    
-    <TextView
-        	android:id="@+id/result"
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/submmit"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/label_submmit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/result"
             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="" />
-    <TextView
-        	android:id="@+id/suggest"
-            android:layout_height="wrap_content"
+
+        <TextView
+            android:id="@+id/suggest"
             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="2"
             android:text="" />
-    
+    </LinearLayout>
 
 </LinearLayout>
